@@ -1,0 +1,33 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DataTemplate
+        x:Key="Default">
+        <StackPanel>
+            <TextBlock Text="{Binding DeviceName}" />
+            <TextBlock Text="{Binding DeviceString}" />
+            <TextBlock Text="{Binding DeviceID}" />
+            <TextBlock Text="{Binding StateFlags}" />
+        </StackPanel>
+    </DataTemplate>
+    <DataTemplate
+        x:Key="Display">
+        <StackPanel>
+            <TextBlock Text="{Binding DeviceName}" />
+            <TextBlock Text="{Binding DeviceString}" />
+            <TextBlock Text="{Binding DeviceID}" />
+            <TextBlock Text="{Binding StateFlags}" />
+            <Button Content="Enable" />
+            <Button Content="Disable" />
+        </StackPanel>
+    </DataTemplate>
+    <DataTemplate
+        x:Key="EDIDisplayDevice">
+        <StackPanel>
+            <TextBlock Text="{Binding SourceId}" />
+            <TextBlock Text="{Binding TargetId}" />
+            <TextBlock Text="{Binding OutputTechnology}" />
+            <TextBlock Text="{Binding RefreshRate}" />
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>
