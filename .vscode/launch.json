@@ -1,0 +1,19 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug test04",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build test04",
+            "program": "${workspaceFolder}/dotnet_cui_memo_test04/EnumDisplay/bin/Debug/net9.0-windows/EnumDisplay.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/dotnet_cui_memo_test04/EnumDisplay",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ICommandImpl\ICommandImpl.csproj" />
+    <ProjectReference Include="..\DisplayOperator\DisplayOperator.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <!--<OutputType>WinExe</OutputType> dotnet new wpf コマンドは WinExe を生成する → Library へ修正 -->
+    <OutputType>Library</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+</Project>
